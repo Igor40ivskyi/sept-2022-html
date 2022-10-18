@@ -1,0 +1,79 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrap{
+    width: 990px;
+    height: 600px;
+    background: darkcyan;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-around;*/
+    /*padding-top: 20px;*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card{
+    width: 430px;
+    height: 150px;
+    background: ghostwhite;
+    display: flex;
+    align-items: center;
+    border-radius: 7px ;
+}
+.icon{
+    width: 24%;
+    height: 100%;
+    /*border: 2px solid red;*/
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: dimgray;
+}
+.content{
+    width: 80%;
+    height: 100%;
+    /*border: 2px solid orange;*/
+}
+
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 28px;
+    color: orange;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.description{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+    color: dimgray;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.wrap1{
+    display: flex;
+    column-gap: 20px;
+}
+.wrap2{
+    display: flex;
+    column-gap: 20px;
+}
+.wrap3{
+    display: flex;
+    column-gap: 20px;
+}

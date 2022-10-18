@@ -1,0 +1,61 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.style{
+    /*border: 2px solid #246abc;*/
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 200px;
+    height: 30px;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkcyan;
+    color: white;
+    font-family: "Agency FB";
+    padding-bottom: 20px;
+}
+.heading{
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bolder;
+    color: darkorange;
+}
+
+.icon{
+    font-size: 35px;
+    color: dimgray;
+    padding-top: 50px;
+    box-sizing: border-box;
+
+}
+
+.paragraph{
+    color: silver;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.buttonWrap{
+    box-sizing: border-box;
+    padding-bottom: 30px}
