@@ -1,0 +1,69 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.card{
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+
+}
+
+
+.paragraph{
+    height: 135px;
+    /*background: darkblue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: unset;
+    color: silver;
+}
+.button{
+    height: 100px;
+    /*background: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.textColor{
+    /*color: black;*/
+    font-size: 20px;
+    font-family: "Arial Unicode MS";
+}
+
+.heading{
+    height: 50px;
+    /*background: dodgerblue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 90px;
+    font-weight: bold;
+}
+
+.buttonText{
+    height: 49px;
+    border: 1px solid black;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapperHeading{
+    height: 100px;
+}
+.paragraph{
+    font-weight: revert;
+}
