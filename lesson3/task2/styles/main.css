@@ -1,0 +1,70 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    column-gap: 35px;
+}
+.card{
+    width: 310px;
+    height: 380px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lablell{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid darkgrey;
+    position: relative;
+    top: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: floralwhite;
+    font-size: 30px;
+    color: goldenrod;
+}
+.content{
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.heading{
+    height: 70px;
+    width: 250px;
+    /*border: 2px solid rebeccapurple;*/
+    font-size: 28px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.paragraph{
+    height: 90px;
+    width: 250px;
+    /*border: 2px solid cadetblue;*/
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: revert;
+    margin-bottom: 30px;
+    color: darkgray;
+}
+.button{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    font-size: 30px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textAlign{
+    text-align: center;
+}

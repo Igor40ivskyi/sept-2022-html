@@ -1,0 +1,28 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block1{
+    width: 1000px;
+    height: 500px;
+    background: #18467b;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    column-gap: 20px;
+}
+.block2{
+    width: 1000px;
+    height: 500px;
+    background: cornsilk;
+}
+.brick{
+    width: 140px;
+    height: 140px;
+    background: rebeccapurple;
+    position: relative;
+    bottom: -70px;
+    border-radius: 8px;
+}
