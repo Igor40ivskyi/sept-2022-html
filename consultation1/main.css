@@ -1,0 +1,9 @@
+.buttonWrap button {
+    width: 300px;
+    height: 100px;
+    background: goldenrod;
+    color: floralwhite;
+    position: relative;
+    font-size: 40px;
+    font-weight: 1000;
+}

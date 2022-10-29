@@ -1,0 +1,42 @@
+.picture{
+    height: 720px;
+    width: 181px;
+    border: 2px solid goldenrod;
+    background-image: url("../images/img_1.png");
+    background-position: 0;
+    animation-name: fight;
+    animation-duration: 1.5s;
+    animation-timing-function: step-end;
+    animation-iteration-count: infinite;
+}
+@keyframes fight {
+    0%{
+        background-position: -37px;
+
+    }
+    12.5%{
+        background-position: -193px;
+    }
+    25%{
+        background-position: -355px;
+    }
+    37%{
+        background-position: -551px;
+        width: 180px;
+    }
+    50%{
+        background-position: -749px;
+    }
+    62.5%{
+        background-position: -979px;
+    }
+    75%{
+        background-position: -985px;
+    }
+    /*87.5%{*/
+    /*    background-position: -2091px;*/
+    /*}*/
+    /*100%{*/
+    /*    background-position: -2040px;*/
+    /*}*/
+}

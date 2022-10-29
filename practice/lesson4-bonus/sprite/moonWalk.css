@@ -1,0 +1,28 @@
+.walk{
+    height: 480px;
+    width: 202px;
+    border: 2px solid black;
+    background-image: url("images/img_3.png");
+    background-position: -468px;
+    animation-name: walk;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-start;
+}
+@keyframes walk {
+    0%{
+        background-position: -468px;
+    }
+    25%{
+        background-position: -468px;
+    }
+    50%{
+        background-position: -332px;
+    }
+    75%{
+        background-position: -190px;
+    }
+    100%{
+        background-position: -195px;
+    }
+}

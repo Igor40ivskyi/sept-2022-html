@@ -1,0 +1,77 @@
+.point{
+    width: 200px;
+    height: 200px;
+    background: goldenrod;
+    /*animation-name: ddd;*/
+    /*animation-duration: 3s;*/
+    /*animation-timing-function: linear;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-play-state: paused;*/
+    animation-name: aaa;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: unset;
+    animation-play-state: paused;
+
+}
+
+.point:hover{
+    animation-play-state: unset;
+}
+@keyframes aaa {
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+    60%{
+        transform: rotate(195deg);
+    }
+    70%{
+        transform: rotate(165deg);
+    }
+    80%{
+        transform: rotate(195deg);
+    }
+    90%{
+        transform: rotate(165deg);
+    }
+    100%{
+        transform: rotate(195deg);
+    }
+
+}
+
+
+
+
+
+
+/*.point:hover{*/
+/*    animation-play-state: running;*/
+/*}*/
+
+/*@keyframes ddd {*/
+/*    0%{*/
+/*        width: 200px;*/
+/*        background: silver;*/
+/*    }*/
+/*    50%{*/
+/*        width: 700px;*/
+/*        background: rebeccapurple;*/
+/*    }*/
+/*    100%{*/
+/*        width: 200px;*/
+/*    }*/
+/*}*/
+
+
+
+
+
+/*.point:hover{*/
+/*    background: darkgreen;*/
+/*    transition: 3000ms;*/
+/*    width: 100%;*/
+/*}*/

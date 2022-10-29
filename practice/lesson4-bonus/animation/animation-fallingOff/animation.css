@@ -1,0 +1,38 @@
+.stone{
+    width: 200px;
+    height: 100px;
+    background: burlywood;
+    position: relative;
+    animation-name: fallOff;
+    animation-duration: 10s;
+}
+@keyframes fallOff {
+    0%{
+
+    }
+    1%{
+        left: 10px;
+    }
+    2%{
+        left: 20px;
+    }
+    3%{
+        left: 30px;
+    }
+    4%{left: 40px}
+    5%{left: 50px}
+    50%{
+        left: 400px;
+    }
+    /*55%{*/
+    /*    transform: rotate(90deg);*/
+    /*}*/
+}
+@keyframes rotate {
+    0%{
+
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+}

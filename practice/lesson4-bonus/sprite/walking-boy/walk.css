@@ -1,0 +1,95 @@
+body{
+    display: flex;
+}
+.block{
+    width: 100px;
+    height: 600px;
+    background: url("../images/img_4.png");
+    /*border: 2px solid black;*/
+    background-position: -66px;
+    animation-name: walk;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-start;
+}
+@keyframes walk {
+    0%{
+background-position: -68px;
+}
+    10%{
+background-position: -160px;
+}
+    20%{
+background-position: -253px;
+}
+    30%{
+background-position: -339px;
+}
+    40%{
+background-position: -418px;
+}
+    50%{
+background-position: -491px;
+}
+    60%{
+background-position: -564px;
+}
+    70%{
+background-position: -646px;
+}
+    80%{
+background-position: -735px;
+}
+    90%{
+background-position: -831px;
+}
+    100%{
+background-position: -835px;
+}
+}
+.block1{
+    width: 100px;
+    height: 600px;
+    background: url("../images/img_4.png");
+    /*border: 2px solid black;*/
+    background-position: -66px;
+    animation-name: walk1;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-start;
+}
+@keyframes walk1 {
+    0%{
+        background-position: -69px;
+    }
+    10%{
+        background-position: -158px;
+    }
+    20%{
+        background-position: -251px;
+    }
+    30%{
+        background-position: -337px;
+    }
+    40%{
+        background-position: -416px;
+    }
+    50%{
+        background-position: -489px;
+    }
+    60%{
+        background-position: -562px;
+    }
+    70%{
+        background-position: -642px;
+    }
+    80%{
+        background-position: -733px;
+    }
+    90%{
+        background-position: -829px;
+    }
+    100%{
+        background-position: -833px;
+    }
+}

@@ -1,0 +1,14 @@
+li{
+    font-size: 20px;
+    background: silver;
+}
+li:nth-child(2n){
+    background: beige;
+}
+li:hover{
+    font-size: 25px;
+}
+li:nth-child(10n):hover{
+    font-size: 30px;
+    background: goldenrod;
+}
