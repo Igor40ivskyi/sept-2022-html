@@ -3,14 +3,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 320vh;
 }
     .wrap{
-    height: 500vh;
-    justify-content: flex-end;
-        /*align-items: flex-start;*/
-        position: relative;
-        botom: 100px;
-        margin-bottom: 100px;
+    height: 310vh;
+    display: flex;
+        justify-content: center;
+        align-items: center;
 }
 .wrap56{
     flex-direction: column;
