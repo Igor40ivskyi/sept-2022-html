@@ -1,0 +1,15 @@
+@media screen and (min-width: 0px) and (max-width: 1000px){
+    .block1{
+        height: 30%;
+        width: 90%;
+    }
+    .block2{
+        height: 35%;
+        width: 90%;
+    }
+    .block3{
+        width: 90%;
+        height: 35%;
+    }
+
+}

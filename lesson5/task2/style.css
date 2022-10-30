@@ -35,10 +35,13 @@
 .wrapbcdef{
     /*border: 10px solid red;*/
     display: flex;
+    width: 100%;
+
 }
 .wrapbcde{
     /*border: 8px solid darkgreen;*/
     width: 72%;
+
 }
 .wrapcde{
     /*border: 6px solid #18467b;*/
@@ -59,9 +62,13 @@
     }
     .wrapbcdef{
         flex-direction: column;
+        justify-content: center;
     }
     .wrapbcde{
         width: 100%;
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*flex-direction: column;*/
     }
     .wrapcde{
         display: flex;
@@ -70,11 +77,12 @@
     }
     .b{
         height: 600px;
-        width: 100%;
+        width: 97%;
         margin-left: 10px;
+        flex: auto;
     }
     .f{
-        width: 894px;
+        width: 97%;
     }
     .c{
         width: 150px;
