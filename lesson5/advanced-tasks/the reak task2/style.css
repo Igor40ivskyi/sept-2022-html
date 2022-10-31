@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200vh;
+}
+.wrap{
+    height: 200vh;
+    width: 100%;
+    /*background: burlywood;*/
+    display: flex;
+    /*align-items: flex-start;*/
+    flex-direction: column;
+    row-gap: 10px;
+    /*column-gap: 10px;*/
+    background: gold;
+}
+.wrap12{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    column-gap: 10px;
+}
+.wrapwrap389-4567{
+    width: 100%;
+    height: 75%;
+    /*background: dimgrey;*/
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.wrap389{
+    width: 25%;
+    height: 100.6%;
+    /*background: goldenrod;*/
+    row-gap: 10px;
+    column-gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.wrap4567{
+    width: 75%;
+    height: 100%;
+    /*background: cadetblue;*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    box-sizing: border-box;
+}
+.wrap45{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.wrap67{
+    width: 100%;
+    height: 72%;
+    display: flex;
+    column-gap: 10px;
+    /*row-gap: 10px;*/
+}
+.wrap89media{
+    /*display: flex;*/
+    row-gap: 10px;
+    column-gap: 10px;
+    display: none;
+}
+
+
+.block1{
+    width: 25%;
+    height: 100%;
+    background: silver;
+}
+.block2{
+    width: 75%;
+    height: 100%;
+    background: silver;
+}
+.block3{
+    width: 100%;
+    height: 78%;
+}
+.block4{
+    width: 70%;
+    height: 100%;
+}
+.block5{
+    width: 30%;
+    height: 100%;
+}
+.block6{
+    width: 70%;
+    height: 100%;
+}
+.block7{
+    width: 30%;
+    height: 100%;
+}
+.block8{
+    width: 100%;
+    height: 13%;
+}
+.block9{
+    width: 100%;
+    height: 13%;
+}
+.block10{
+    height: 13%;
+    width: 100%;
+    background: aquamarine;
+    margin-top: 10px;
+}
+.block8media{
+    display: none;
+}
+.block9media{
+    display: none;
+}
+.background-darkolivegreen{
+    background: dimgrey;
+}
+.font-size30{
+    font-size: 50px;
+    color: black;
+    font-family: "Book Antiqua";
+    font-weight: 900;
+    font-size-adjust: initial;
+    font-feature-settings: unset;
+    font-kerning: initial;
+    font-language-override: revert;
+    font-optical-sizing: unset;
+    font-style: oblique;
+    font-variant: historical-forms;
+    font-palette: light;
+    filter: gray(10) ;
+    padding-top: 20px;
+    padding-left: 20px;
+}
