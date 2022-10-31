@@ -1,0 +1,50 @@
+@media screen and (min-width: 0) and (max-width: 1000px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrap{
+        height: 500vh;
+        justify-content: flex-end;
+        /*align-items: flex-start;*/
+        position: relative;
+        botom: 100px;
+        margin-bottom: 100px;
+    }
+    .wrap56{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .block2{
+        display: none;
+    }
+
+    .block1{
+        width: 600px;
+        height: 200px;
+    }
+    .block3{
+        width: 600px;
+
+    }
+    .block4{
+        width: 600px;
+        height: 500px;
+    }
+    .block5{
+        width: 600px;
+        height: 800px;
+    }
+    .block6{
+        width: 600px;
+        height: 800px;
+    }
+    .block7{
+        width: 600px;
+        height: 150px;
+    }
+
+
+}

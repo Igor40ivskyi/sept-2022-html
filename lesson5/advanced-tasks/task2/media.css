@@ -1,0 +1,70 @@
+@media screen and (min-width: 0) and (max-width:900px){
+.body{
+    height: 400vh;
+}
+.wrap{
+    height: 400vh;
+}
+.wrap12{
+    height: 10%;
+}
+    .wrapwrap389-4567{
+        flex-direction: column;
+        height: 74%;
+    }
+    .wrap389{
+        height: 17%;
+        width: 100%;
+    }
+.wrap4567{
+    width: 100%;
+}
+.wrap45{
+    width: 100%;
+    height: 20%;
+}
+.wrap67{
+    flex-direction: column;
+    height: 80%;
+}
+.wrap89media{
+    height: 20%;
+}
+
+.block3{
+    height: 100%;
+    width: 100%;
+}
+.block6{
+    width: 100%;
+    height: 40%;
+}
+.block7{
+    width: 100%;
+    height: 40%;
+}
+.block8{
+    display: none;
+}
+.block9{display: none}
+.block8media{
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+.block9media{
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+}
